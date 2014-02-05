@@ -1,0 +1,91 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	font-family: 14px;
+	background: #f1f6f6;
+
+}
+
+p.error{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-family: sans-serif;
+	font-size: 15px;
+	color : #fc483f;
+	text-align: center;
+}
+
+.icon-bnp{
+	width: 45px;
+	height: 45px;
+	background-image: url('../asset/dash/bnp.png');
+	background-repeat: no-repeat;
+	display : block;
+   	float: left;
+   	margin-top: -12px;
+   	margin-right: 10px;
+}
+
+.txt{
+	height: 30px;
+	width: 280px;
+	margin-bottom: 10px;
+	border: 1px solid #dadb9f;
+}
+
+.txt:focus{
+	border: 2px solid #dadb9f;
+}
+
+
+.tombol{
+	border: none;
+	background: #dadb9f;
+	box-shadow:0 0 5px rgba(0,0,0,.1);
+	padding : 8px;
+	font-family: 18px;
+
+}
+
+.tombol:hover{
+	background: #d5d6a5;
+	color : #fff;
+}
+
+.table-form{
+	font-family: sans-serif;
+	font-size: 14px;
+	border-collapse: collapse;
+	clear: both;
+	margin : 5px;
+
+}
+
+form{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+#container{
+	width : 500px;
+	margin : 100px auto;
+	box-shadow:0 0 5px rgba(0,0,0,.2);
+	padding-bottom: 10px;
+	background: #fff;
+}
+
+#container #heading{
+	background: #dadb9f;
+	color : #fff;
+	padding : 15px;
+	font-size: 17px;
+	box-shadow:0 0 5px rgba(0,0,0,.1);
+	font-family: sans-serif;
+}
+
+#box{
+	margin: 20px;
+	font-family: sans-serif;
+}
+
+
